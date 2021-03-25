@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" width="250" src="../assets/logo1.png" />
+    <img class="logo" alt="Vue logo" width="250" src="../assets/logo1.png" />
     <InputSnNumber />
   </div>
 </template>
@@ -15,3 +15,9 @@ export default {
   },
 };
 </script>
+
+<style >
+.logo {
+  padding-left: 50px;
+}
+</style>
